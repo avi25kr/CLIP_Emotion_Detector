@@ -32,7 +32,7 @@ Fine-grained micro-expressions
 CLIP’s Vision Transformer (ViT) provides rich semantic image embeddings, but it is not tuned for emotional cues.
 This project introduces an Adapter module to specialize CLIP’s embeddings for emotion recognition.
 
-🧠** Architecture Overview**
+**🧠Architecture Overview**
 ✔ 1. CLIP (Vision Transformer) Encoder
 
 Pretrained CLIP ViT-B/32
@@ -160,4 +160,5 @@ Multimodal extension with Wav2Vec2.0 audio model
 🏁 Conclusion
 
 This project demonstrates how a powerful general-purpose model like CLIP can be adapted for fine-grained facial emotion recognition using a custom MLP adapter. Despite being trained on generic image-text pairs, CLIP embeddings prove highly effective when paired with a specialized classifier.
+
 
