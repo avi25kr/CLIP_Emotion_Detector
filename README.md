@@ -1,4 +1,4 @@
-Emotion Recognition Using CLIP + MLP Adapter
+**Emotion Recognition Using CLIP + MLP Adapter**
 
 This project builds a deep-learning based emotion recognition system using the CLIP ViT-B/32 visual encoder combined with a custom multi-layer adapter network.
 The goal is to classify facial expressions into seven emotion categories:
@@ -19,7 +19,7 @@ The goal is to classify facial expressions into seven emotion categories:
 
 The project is trained and evaluated on the FER2013 emotion dataset.
 
-🚀 Motivation
+**🚀 Motivation**
 
 Traditional CNN models struggle to capture global facial relationships such as:
 
@@ -32,7 +32,7 @@ Fine-grained micro-expressions
 CLIP’s Vision Transformer (ViT) provides rich semantic image embeddings, but it is not tuned for emotional cues.
 This project introduces an Adapter module to specialize CLIP’s embeddings for emotion recognition.
 
-🧠 Architecture Overview
+🧠** Architecture Overview**
 ✔ 1. CLIP (Vision Transformer) Encoder
 
 Pretrained CLIP ViT-B/32
@@ -41,7 +41,7 @@ Extracts a 512-dimensional embedding for each face image
 
 Frozen initially, partially unfrozen later (epoch 10)
 
-✔ 2. Emotion Adapter (MLP)
+✔ **2. Emotion Adapter (MLP)**
 
 A deep projection network that learns emotion-specific mapping:
 
@@ -160,3 +160,4 @@ Multimodal extension with Wav2Vec2.0 audio model
 🏁 Conclusion
 
 This project demonstrates how a powerful general-purpose model like CLIP can be adapted for fine-grained facial emotion recognition using a custom MLP adapter. Despite being trained on generic image-text pairs, CLIP embeddings prove highly effective when paired with a specialized classifier.
+
